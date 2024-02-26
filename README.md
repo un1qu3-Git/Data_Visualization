@@ -1,5 +1,11 @@
 #Data  
 26/02/2024
-<h2>Installing matplotlib</h2>
-<h3>On Linux </h3>
-$ sudo apt-get install python3-matplotlib
+## Installing matplotlib
+### On Linux
+```$ sudo apt-get install python3-matplotlib```
+### On OS X 
+```$ pip install --user matplotlib```
+### On Windows 
+```> cd python_work
+python_work> python -m pip install --user matplotlib-1.4.3-cp35-none-win32.whl
+```
